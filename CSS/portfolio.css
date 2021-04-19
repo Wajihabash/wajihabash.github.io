@@ -18,5 +18,14 @@
 .aboutMe {
     margin-left: 4rem; 
     margin-top: 2rem;
-    
+}
+
+.mediaicons {
+    text-align: center; /* default */
+}
+
+@media (min-width: 768px) { /* only "big" screens */
+    .mediaicons { /* instead of label */
+        text-align: center;
+    }
 }
