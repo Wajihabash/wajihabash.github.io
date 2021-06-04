@@ -43,3 +43,33 @@ body {
         display:block;
         margin:auto;
 }
+.section-title {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-weight: 700;
+    position: relative;
+    flex: 1 100%;
+    font-size: 8vh;
+    z-index: 10;
+    text-align: left;
+    padding-left: 40px;
+}
+
+.grid-item-divider {
+    display: block;
+    position: relative;
+    height: 25rem;
+    width: 30rem;
+    right: 0px;
+    margin: 40px auto 10px;
+    z-index: 10;
+}
+#contact-title {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-weight: 700;
+    position: relative;
+    flex: 1 100%;
+    font-size: 5vh;
+    z-index: 10;
+    text-align: left;
+    padding-left: 40px;
+}
